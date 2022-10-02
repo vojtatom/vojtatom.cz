@@ -13,7 +13,7 @@ import imgglB from "./images/glB.png";
 
 
 export function FlowProjectPage() {
-    return (<ProjectPostPage clickableImages>
+    return (<ProjectPostPage clickableImages title="vojtatom - flow">
         <h1>Flow</h1>
         <p className="subtitle">Vector field visualization for web and distributed systems</p>
         <p>The project was developed as a bachelor thesis at FIT CTU in Prague in cooperation with ASU CAS. The goal was to <strong>develop a distributed framework</strong> for <strong>visualization of vector field data</strong>, the main focus was the visualization of <strong>plasma flow near solar surface</strong>. The design of the project focuses on physical accuracy and clarity of the visualization, performance, and also portability. The prototype was implemented using web technologies (JavaScript and WebGL) and aims at distributed systems, such as SAGE2.</p>

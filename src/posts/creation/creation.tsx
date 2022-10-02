@@ -16,7 +16,7 @@ import imgMoonlight2 from "./images/bridge2.jpg";
 export function CreationPostPage() {
 
     return (
-        <ProjectPostPage clickableImages>
+        <ProjectPostPage clickableImages title="vojtatom - creation station">
             <h1>Teenage years of my creation station</h1>
             <p className="subtitle">by Vojtěch Tomas, 2010-2015, my history of 3D graphics</p>
 

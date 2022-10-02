@@ -10,12 +10,11 @@ import vyuzitiImg from "./assets/vyuziti.png";
 
 import Thesis from "./assets/final.pdf";
 import Presentaiton from "./assets/CESCG2022TOMAS.pdf";
-import { Link } from "react-router-dom";
 
 
 export function MetacityProjectPage() {
     return (
-        <ProjectPostPage clickableImages>
+        <ProjectPostPage clickableImages title="vojtatom - metacity">
             <h1>Metacity</h1>
             <p className="subtitle">Urban Data Processing and Visualization Toolkit</p>
             <p>This project was developed as a part of my Master Thesis. The outputs were published and presented at CESCG 2022.</p>

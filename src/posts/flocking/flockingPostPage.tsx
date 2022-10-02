@@ -43,7 +43,7 @@ import { FlockingSketch } from "./sketch/sketch";
 
 export function FlockingPostPage() {
     return (
-        <ProjectPostPage clickableImages>
+        <ProjectPostPage clickableImages title="vojtatom - flocking">
             <h1>I flock, you flock</h1>
             <p className="subtitle">winter 2019/2020, exploring the flocking algorithm</p>
             <p>The flocking algorithm mimics behaviors commonly seen in nature. A typical example of this behavior is the flight of birds in a flock. In this post, I'd like to go through the intricacies of the implementation both on CPU and GPU using compute shaders, and share some of the results I got. Inspired by <a href="https://thecodingtrain.com/CodingChallenges/124-flocking-boids.html">The Coding Train Coding Challenge - Flocking Simulation by Daniel Shiffman</a>.</p>

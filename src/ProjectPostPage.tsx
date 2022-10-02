@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import "./ProjectPost.css";
+import { Helmet } from "react-helmet";
 
 interface ProjectPageProps {
     children: React.ReactNode | React.ReactNode[];
     clickableImages?: boolean;
+    title: string;
 }
 
 export function ProjectPostPage(props: ProjectPageProps) {
@@ -38,6 +40,10 @@ export function ProjectPostPage(props: ProjectPageProps) {
 
     return (
         <div>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>{props.title}</title>
+            </Helmet>
             <div id="postProjectHeader">
                 <Link to="/">&#8592; back to portfolio</Link>
             </div>
