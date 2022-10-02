@@ -1,0 +1,13 @@
+#portfolio {
+    padding: 1rem;
+}
+
+.centered {
+    max-width: var(--width-content);
+    margin: 0 auto;
+}
+
+#portfolio h1 {
+    font-size: 1em;
+    font-weight: 900;
+}
