@@ -11,6 +11,13 @@ body {
     font-size: 1em;
 }
 
+@media (min-width: 1024px) {
+    html,
+    body {
+        font-size: 1.2em;
+    }
+}
+
 .it {
     font-style: italic;
 }
