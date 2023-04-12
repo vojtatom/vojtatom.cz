@@ -1,10 +1,7 @@
-import "./Project.css"
-
 interface TimelineEventProps {
     date: string;
     title: string;
 }
-
 
 export function TimelineEvent(props: TimelineEventProps) {
     return (

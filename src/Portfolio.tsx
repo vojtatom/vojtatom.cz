@@ -1,8 +1,7 @@
 import { About } from './portfolio/About';
 import { Projects } from './portfolio/Projects';
 import { WhatIDo } from './portfolio/WhatIDo';
-import "./Portfolio.css";
-import { Helmet } from "react-helmet";
+import { Helmet } from 'react-helmet';
 
 export function Portfolio() {
     return (
@@ -16,10 +15,7 @@ export function Portfolio() {
                 <WhatIDo />
                 <Projects />
             </div>
-            <div id="footer">
-                &copy; {new Date().getFullYear()} vojtatom.cz
-            </div>
+            <div id="footer">&copy; {new Date().getFullYear()} vojtatom.cz</div>
         </div>
-    )
+    );
 }
-
